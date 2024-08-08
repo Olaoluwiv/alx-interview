@@ -1,22 +1,23 @@
-0x02.minimum Operations
-Dynamic Programming:
+# Minimum Operations Project
 
-Familiarity with dynamic programming can help in breaking down the problem into simpler subproblems and building up the solution.
-Dynamic Programming (GeeksforGeeks)
-Prime Factorization:
+This project implements a function to calculate the minimum number of operations required to get exactly `n` characters 'H' in a text file using only two operations: Copy All and Paste.
 
-Understanding how to perform prime factorization is crucial since the problem can be reduced to finding the sum of the prime factors of the target number n.
-Prime Factorization (Khan Academy)
-Code Optimization:
+## Files
 
-Knowing how to approach problems from an optimization perspective can be useful in finding the most efficient solution.
-How to optimize Python code
-Greedy Algorithms:
+- `0-minoperations.py`: Contains the implementation of the `min_operations` function.
+- `README.md`: This file, providing an overview of the project.
 
-The problem can also be approached with greedy algorithms, choosing the best option at each step.
-Greedy Algorithms (GeeksforGeeks)
-Basic Python Programming:
+## Function Prototype
 
-Proficiency in Python, including loops, conditionals, and functions, is necessary to implement the solution.
-Python Functions (Python Official Documentation)
-By studying these concepts and utilizing the resources provided, you will be equipped to tackle the “Minimum Operations” problem effectively, applying both mathematical reasoning and programming skills to find the most efficient solution.
+```python
+def min_operations(n):
+    """
+    Calculate the minimum number of operations required to get exactly n 'H'
+    characters in the file.
+
+    Parameters:
+    n (int): The target number of 'H' characters.
+
+    Returns:
+    int: The fewest number of operations needed, or 0 if impossible.
+    """
